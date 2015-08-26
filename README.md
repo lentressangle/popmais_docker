@@ -37,10 +37,7 @@ $ docker pull  loicent/popmais_time
 ## Run a container with this image
 
 ```shell
-$ docker run \
-  --detach \
-  --publish 4040:4040 \
-  --volume "/wherever/your/music/is:/var/music:ro" \
-  <your-name>/debian-subsonic
-
+$ dk run -d -p 8001:8001 <your-name>/popmais_time
 ```
+
+And go to http://localhost:8001
