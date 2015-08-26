@@ -37,7 +37,7 @@ $ docker pull  loicent/popmais_time
 ## Run a container with this image
 
 ```shell
-$ dk run -d -p 8001:8001 <your-name>/popmais_time
+$ docker run -d -p 8001:8001 <your-name>/popmais_time
 ```
 
 And go to http://localhost:8001
